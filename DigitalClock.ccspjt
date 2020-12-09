@@ -1,0 +1,23 @@
+[PROJECT]
+Target=DigitalClock.hex
+Processor_Text=PIC16F877
+CCSVerions=5.007
+Compiler=PCM
+CCSVersion=5.007
+[Target Data]
+FileList=DigitalClock.c
+[Directories]
+Include=C:\Program Files (x86)\PICC\Devices\;C:\Program Files (x86)\PICC\Drivers\;C:\Users\asus\Desktop\1030516696\
+[C:\Users\asus\Desktop\1030516696\DigitalClock]
+Type=4
+[mru-list]
+1=DigitalClock.c
+[Opened Files]
+1=DigitalClock.c
+2=..\Ödevin Son hHali\DigitalClock.c
+3=
+[DigitalClock.c]
+Type=4
+[Units]
+Count=1
+1=DigitalClock (main)

@@ -1,0 +1,52 @@
+
+ROM used:   422/8192 (5%)
+            422/8192 (5%) including unused fragments
+
+            0.5 Average locations per line
+            3.7 Average locations per statement
+
+RAM used:   26/368 (7%) at main() level
+            31/368 (8%) worst case
+
+Stack used: 1 worst case (0 in main + 1 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  188   115 100  DigitalClock.c
+   10     0   0  digitalClock.h
+  629     0   0  ..\..\..\..\Program Files (x86)\PICC\Devices\16F877.h
+----- -----
+  827   115 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     20   5    1             @delay_ms1
+0    131  31    1   830  5.3  timer1
+0     21   5    3             @DIV88
+0    201  48    1  2222  7.9  MAIN
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               2
+    Statements              115
+    Comments                106
+    Volume (V)              3462
+    Difficulty (D)          13.0
+    Effort to implement (E) 44920
+    Time to implement (T)   42 minutes
+    Est Delivered Bugs (B)  0
+    Cyclomatic Complexity   30
+    Maintainability (MI)    15
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-00030    45  0  
+00031-007FF   373  1626  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+
